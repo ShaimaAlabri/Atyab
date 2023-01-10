@@ -15,6 +15,7 @@ public class LimitNumber {
 				break;
 			}
 			else {
+				
 				System.out.println("number out of the range plese try again!");
 				
 			}
