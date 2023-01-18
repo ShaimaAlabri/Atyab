@@ -8,7 +8,7 @@ public class NextGreaterElement {
 		int[] num= {1,5,6,9,7,10};
 		int size=num.length;
 		Arrays.sort(num);
-		   System.out.println("sorted Array ::"+Arrays.toString(num));
+		   System.out.println("sorted Array :"+Arrays.toString(num));
 		      int res = num[size-2];
 		      System.out.println("2nd largest element is ::"+res);
 	}
