@@ -113,8 +113,6 @@ public class UndoRedo {
 	                break;
 	            }
 	          
-//	            StringBuffer str = new StringBuffer();
-//	            str.append(stack1);
 
 	            System.out.println("current data:" +Arrays.toString(stack1.toArray()).replace("[", "").replace("]", "").replace(",", " "));
 	            System.out.println("data for redo:" +Arrays.toString( stack2.toArray()).replace("[", "").replace("]", "").replace(",", " "));
